@@ -19,7 +19,7 @@ class Header extends React.Component {
        
              <div className="header-main-sm">
               <a href="https://www.facebook.com/cheryl.rollings.58" target="_blank"><div className="header-main-sm-fb"></div></a>
-              <a href="mailto:smilie_kay@yahoo.com"><div clasNames="header-main-sm-email"></div></a>
+              <a href="mailto:smilie_kay@yahoo.com"><div className="header-main-sm-email"></div></a>
 
                <div className="burger-menu-btn"></div>
              </div>

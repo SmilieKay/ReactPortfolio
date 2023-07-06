@@ -1,3 +1,39 @@
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  Remove list styles (bullets/numbers)
+  in case you use it with normalize.css
+*/
+ol, ul {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
 /* allows me to create variables and use them in the whole stylesheet */
 :root {
   --gradient-colors: #000087, #ff00ff, #00ffff, #5f00af;
@@ -21,8 +57,8 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  /* content: url(../images/facebook-round-color.png) */
-    /* url(../images/email-color2.png); */
+  content: url(./images/facebook-round-color.png)
+    url(./images/email-color2.png);
 }
 /*allows for a general set size*/
 .wrapper-main {
@@ -83,7 +119,7 @@ a {
 
 }
 
-/* Todo us the below code when I make a log */
+/* Todo us the below code when I make a logo */
 /*.header-main-logo{
 width: 120px;
 height: 100%;
@@ -134,25 +170,25 @@ header-main-logo{
 .header-main-sm-fb {
   width: 2rem;
   height: 2rem;
-  /* background-image: url(../images/facebook-circular-logo.png); */
+  background-image: url(./images/facebook-circular-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 /*this allows the color facebook logo to show when the mouse is hovered over it*/
 .header-main-sm-fb:hover {
-  /* background-image: url(../images/facebook-round-color.png); */
+  background-image: url(./images/facebook-round-color.png);
 }
 /*this provides the black and white email logo that is in the header */
 .header-main-sm-email {
   width: 2rem;
   height: 2rem;
-  /* background-image: url(../images/email.png); */
+  background-image: url(./images/email.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 /*this allows the color email logo to show when the mouse is hovered over it */
 .header-main-sm-email:hover {
-  /* background-image: url(../images/email-color2.png); */
+  background-image: url(./images/email-color2.png);
 }
 
 /*Footer*/
@@ -224,7 +260,7 @@ color: #000;
     display: block;
     width: 50px;
     height: 50px;
-    /* background-image: url(../images/burger-menu.png); */
+    background-image: url(./images/burger-menu.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -311,7 +347,7 @@ main {
   height: calc(100vh - 100px);
   background-color: #201f1f;
   margin-top: 10rem;
-  /* background-image: url(../images/neon-fire-turned.jpg); */
+  background-image: url(./images/neon-fire-turned.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -445,18 +481,18 @@ main .main-quotes p:nth-child(2) {
   align-items: center;
 }
 
-/* .index-category-box:nth-child(2) {
-  /* background-image: url(../images/glowing-laptop.jpg); */
- /* } */ 
-/* .index-category-box:nth-child(3) { */
-  /* background-image: url(../images/rainbow-keyboard.jpg); */
-/* } */
-/* .index-category-box:nth-child(4) {
-  background-image: url(../images/keyboard.jpg);
-} */
-/* .index-category-box:nth-child(5) {
-  background-image: url(../images/code-heart-fire.jpg);
-} */ 
+ .index-category-box:nth-child(2) { 
+  background-image: url(./images/glowing-laptop.jpg); 
+  } 
+.index-category-box:nth-child(3) { 
+  background-image: url(./images/rainbow-keyboard.jpg);
+ } 
+ .index-category-box:nth-child(4) {
+  background-image: url(./images/keyboard.jpg);
+} 
+ .index-category-box:nth-child(5) {
+  background-image: url(./images/code-heart-fire.jpg);
+} 
 /*this is the settings that give the dark effect when the mouse hovers over the images in category*/
 .dark-overlay {
   position: absolute;
