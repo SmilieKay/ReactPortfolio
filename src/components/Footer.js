@@ -1,16 +1,17 @@
 import React from "react";
+import {NavLink, Link } from "react-router-dom";
 
 class Footer extends React.Component {
     render(){
         return(<footer className="footer-main">
         <div className="wrapper-main footer-main-flex">
-          <a className="footer-getintouch" href="mailto:smilie_kay@yahoo.com">E-mail Me</a>
+          <a className="footer-getintouch" ><NavLink to="/contact">Contact Me</NavLink></a>
           <div className="footer-sitemap">
             <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About Me</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="mailto:smilie_kay@yahoo.com">Contact Me </a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+                   <li><NavLink to="/about">About Me</NavLink></li>
+                   <li><NavLink to="/projects">Projects</NavLink></li>
+                   <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <ul>
               <li><a href="#">Project 1</a></li>
