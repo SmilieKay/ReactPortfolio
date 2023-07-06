@@ -1,4 +1,4 @@
-/* allows me to create variables and use them in the whole stylesheet*/
+/* allows me to create variables and use them in the whole stylesheet */
 :root {
   --gradient-colors: #000087, #ff00ff, #00ffff, #5f00af;
   --word-colors: #00ffff, #000087, #ff00ff;
@@ -21,8 +21,8 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../images/facebook-round-color.png)
-    url(../images/email-color2.png);
+  /* content: url(../images/facebook-round-color.png) */
+    /* url(../images/email-color2.png); */
 }
 /*allows for a general set size*/
 .wrapper-main {
@@ -134,25 +134,25 @@ header-main-logo{
 .header-main-sm-fb {
   width: 2rem;
   height: 2rem;
-  background-image: url(../images/facebook-circular-logo.png);
+  /* background-image: url(../images/facebook-circular-logo.png); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 /*this allows the color facebook logo to show when the mouse is hovered over it*/
 .header-main-sm-fb:hover {
-  background-image: url(../images/facebook-round-color.png);
+  /* background-image: url(../images/facebook-round-color.png); */
 }
 /*this provides the black and white email logo that is in the header */
 .header-main-sm-email {
   width: 2rem;
   height: 2rem;
-  background-image: url(../images/email.png);
+  /* background-image: url(../images/email.png); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 /*this allows the color email logo to show when the mouse is hovered over it */
 .header-main-sm-email:hover {
-  background-image: url(../images/email-color2.png);
+  /* background-image: url(../images/email-color2.png); */
 }
 
 /*Footer*/
@@ -224,7 +224,7 @@ color: #000;
     display: block;
     width: 50px;
     height: 50px;
-    background-image: url(../images/burger-menu.png);
+    /* background-image: url(../images/burger-menu.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -297,68 +297,260 @@ color: #000;
     text-align: center;
   }
 }
-/* adds the styling for 601px and up */
-/*@media screen and (min-width: 601px),(max-width: 1100px) {
+cd:root {
+  --word-colors: #00ffff, #000087, #ff00ff;
+  --gradient-colors: #000087, #ff00ff, #00ffff, #5f00af;
+}
+.wrapper-main {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*provides the styling for the main section*/
+main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: #201f1f;
+  margin-top: 10rem;
+  /* background-image: url(../images/neon-fire-turned.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+/*provides the styling for the h1 in the main intro*/
+main .main-intro h1 {
+  color: transparent;
+  background-image: linear-gradient(140deg, var(--word-colors));
+  -webkit-background-clip: text;
+   background-size: 300%; 
+  font-size: 7.3rem;
+  line-height: 1.2;
+  text-shadow: 0px 3px 1px white;
+  background-size: 400%;
+  animation: bg-animation 5s infinite alternate;
+}
+@keyframes bg-animation {
+  0% { background-position: left;}
+  100% {background-position: right;}
+}
+main p {
+  font-size: 1.8rem;
+  line-height: 1.75;
+  max-width: 50rem;
+
+}
+/* ToDo us the below code when I am ready for a link button  */
+/*main a { 
+    font-size: 1.8rem;
+    display: block;
+    background-color: rgb(57, 16, 57);
+    padding: 10px 20px;
+    width: fit-content;
+    margin-top: 30px;
+} */
+/* controls the styling for the paragraph of the main quotes vh(view height is used for the sizing to allow for flexibility of screen size */
+main .main-quotes p {
+  color: #fff;
+  border-left: 4px solid rgb(197, 69, 22);
+  padding-left: 4vh;
+  top: -18vh;
+  margin-bottom: 4vh;
+  position: relative;
+  left: 7vh;
+}
+/*controls the style for the main into*/
+main .main-intro {
+  position: relative;
+  right: 27vh;
+  top: 20vh;
+}
+
+/* controls the position for the main quotes and moves them to the left */
+main .main-quotes {
+  position: relative;
+  left: 19vh;
+}
+/* a pseudo class that controls the left margin of the second quote */
+main .main-quotes p:nth-child(2) {
+  margin-left: 289px;
+}
+
+/* about me section*/
+.index-about {
+  width: 100%;
+  padding: 25px 15px 0;
+  
+}
+.index-about-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+.index-about-img img {
+  width: 30rem;
+  border-radius: 50%;
+}
+.index-about-text {
+  flex-basis: 455px;
+}
+.index-about-text p {
+  padding: 30px 0;
+}
+
+.index-about-text a {
+  font-size: 1.8rem;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  background-color: #5f00af;
+  padding: 0 20px;
+  width: fit-content;
+  
+}
+
+.index-about-text a:hover {
+    background-color: #74558e;
+}
+
+/* Category section */
+.index-category {
+  width: 100%;
+  padding: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.index-category p {
+  flex-basis: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+
+.index-category-box {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  background-color: #ff00ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .index-category-box:nth-child(2) {
+  /* background-image: url(../images/glowing-laptop.jpg); */
+ /* } */ 
+/* .index-category-box:nth-child(3) { */
+  /* background-image: url(../images/rainbow-keyboard.jpg); */
+/* } */
+/* .index-category-box:nth-child(4) {
+  background-image: url(../images/keyboard.jpg);
+} */
+/* .index-category-box:nth-child(5) {
+  background-image: url(../images/code-heart-fire.jpg);
+} */ 
+/*this is the settings that give the dark effect when the mouse hovers over the images in category*/
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #201f1f;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+.index-category-box:hover .dark-overlay {
+  opacity: 0.5;
+}
+.index-category-box h3 {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-align: center;
+  text-shadow: -2px 2px 4px #201f1f;
+  z-index: 100;
+}
+/* media responsive design make is viewable from different screen sizes*/
+
+@media only screen and (max-width: 600px) {
   .wrapper-main {
-    width: 100%;
+    width: 80%;
   }
-  .burger-menu-btn {
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-image: url(../images/burger-menu.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .burger-menu {
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 900;
-    background-color: #111;
-  }
-  .burger-menu ul {
-    width: 100%;
-    height: cal(100vh - 60px);
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-  }
-  .burger-menu ul li {
-    flex-basis: 100%;
-    border-top: 2px solid #000;
-  }
-  .burger-menu ul li a {
-    display: block;
-    height: 100%;
-    font-size: 3rem;
-    padding: 30px 0;
-    flex-basis: 100%;
-    text-align: center;
-  }
-  header section
-  .header-main-nav {
-    display: none;
-  }
-  .header-main {
-    height: 5rem;
-  }
-  .header-main-sm {
-    padding-left: 20px;
-  }
-  footer section
-  .footer-sitemap {
-    display: flex;
-  }
-  .footer-sitemap ul:nth-child(1) {
-    border-left: none;
-    padding-left: 0;
-  }
-}*/
-
-
-
-
+  main {
+  height: fit-content;
+  margin-top: 5rem;
+    }
+    main .main-intro {
+      position: unset;
+      padding-bottom: 8vh;
+    }
  
+  main .main-intro h1 {
+   font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 20px;
+   }
+  main p {
+    text-align: center;
+    padding: 0 10%;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: transparent;
+    background-image: linear-gradient(140deg, var(--word-colors));
+    -webkit-background-clip: text;
+    text-shadow: 1px 2px 1px white;background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
+  }
+  @keyframes bg-animation {
+    0% { background-position: left;}
+    100% {background-position: right;}
+  
+  }
+ 
+  main .main-quotes {
+  display: none;
+  }
+  /*Start of the category section*/
+  .index-category {
+  row-gap: 20px;
+  }
+  .index-category p {
+   padding: 15px 0 0;
+ } 
+ /*Start of the about me section*/
+
+.index-about-flex {
+  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.index-about-img {
+  width: 60%;
+
+}
+.index-about-text {
+  flex-basis: 100%;
+}
+.index-about-text h2 {
+  text-align: center;
+}
+.index-about-text p {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.index-about-text a {
+margin: 0 auto;
+}
+}
