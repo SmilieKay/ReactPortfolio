@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink, Link} from "react-router-dom";
 
 class Header extends React.Component {
     render() {
@@ -9,10 +10,10 @@ class Header extends React.Component {
                
                <nav className="header-main-nav">
                  <ul>
-                   <li><a href="#Home">Home</a></li>
-                   <li><a href="#About">About Me</a></li>
-                   <li><a href="#Projects">Projects</a></li>
-                   <li><a href="#Contact">Contact</a></li>
+                   <li><NavLink to="/">Home</NavLink></li>
+                   <li><NavLink to="/about">About Me</NavLink></li>
+                   <li><NavLink to="/projects">Projects</NavLink></li>
+                   <li><NavLink to="/contact">Contact</NavLink></li>
                  </ul>
                </nav>
              
