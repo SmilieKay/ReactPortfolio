@@ -23,8 +23,8 @@ class Home extends React.Component{
                 {/* <!-- <a href="#">My Work</a> --> */}
             </div>
             <div className="main-quotes">
-             <p>"“One of the strongest characteristics of genius is the power of lighting its own fire.” <br></br> John Foster</p> 
-             <p> “I am always doing that <br></br> which I cannot do, in order <br></br> that I may learn how to do it.”<br></br><br></br>Pablo Picasso 
+             <p>"“One of the strongest characteristics of genius is the power of lighting its own fire.” <br/> John Foster</p> 
+             <p> “I am always doing that <br/> which I cannot do, in order <br/> that I may learn how to do it.”<br/>Pablo Picasso 
             </p>
             </div>
             </div>

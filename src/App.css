@@ -107,7 +107,7 @@ a {
   cursor: pointer;
 }
 /*The styling for the header allows the height, width, movement with flex and a gradient background color*/
-.header-main {
+/* .header-main {
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -117,7 +117,7 @@ a {
   height: 10rem;
   background-image: linear-gradient(to bottom right, var(--gradient-colors));
 
-}
+} */
 
 /* Todo us the below code when I make a logo */
 /*.header-main-logo{
@@ -132,20 +132,20 @@ header-main-logo{
     align-self: center;
 }*/
 
-/*this is the styling for the main navigation bar*/
+/* this is the styling for the main navigation bar
 .header-main-nav {
   width: fit-content;
   height: 100%;
   font-weight: bold;
 }
 /* this provides the styling for the list items in the navigation bar*/
-.header-main-nav ul li {
+/* .header-main-nav ul li {
   display: inline;
   float: left;
   margin-left: 30px;
-}
+} */
 /*this provides the styling for the links in the navigation bar the links currently do not go anywhere but they will be added in the future*/
-.header-main-nav ul li a {
+/* .header-main-nav ul li a {
   padding: 0 10px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 100px;
@@ -155,47 +155,47 @@ header-main-logo{
   &.active {
     color: #00ffff;
   }
-}
+} */
 /*this changes the text color of the list items in the navigation bar when the mouse is hovered over it */
-.header-main-nav ul li a:hover {
+/* .header-main-nav ul li a:hover {
   color: #00ffff;
-}
+} */
 /*this provides the styling for the social media links in the header*/
-.header-main-sm {
+/* .header-main-sm {
   width: fit-content;
   height: 100%;
   padding-right: 60px;
   display: flex;
   align-items: center;
   column-gap: 10px;
-}
+} */
 /*this provides the black and white facebook logo that is in the header it also sets the size*/
-.header-main-sm-fb {
+/* .header-main-sm-fb {
   width: 2rem;
   height: 2rem;
   background-image: url(./images/facebook-circular-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 /*this allows the color facebook logo to show when the mouse is hovered over it*/
-.header-main-sm-fb:hover {
+/* .header-main-sm-fb:hover {
   background-image: url(./images/facebook-round-color.png);
-}
+} */
 /*this provides the black and white email logo that is in the header */
-.header-main-sm-email {
+/* .header-main-sm-email {
   width: 2rem;
   height: 2rem;
   background-image: url(./images/email.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 /*this allows the color email logo to show when the mouse is hovered over it */
-.header-main-sm-email:hover {
+/* .header-main-sm-email:hover {
   background-image: url(./images/email-color2.png);
-}
+} */ 
 
 /*Footer*/
-.footer-main {
+/* .footer-main {
   width: 100%;
   padding: 60px 0 100px;
   background-color: #201f1f;
@@ -250,7 +250,7 @@ color: #000;
 }
 .footer-sitemap ul:nth-child(4) p {
   text-align: right;
-}
+} */
 /*Burger menu styling*/
 .burger-menu,
 .burger-menu-btn {
@@ -428,8 +428,8 @@ main .main-quotes p:nth-child(2) {
   margin-left: 289px;
 }
 
-about me section
-.index-about {
+/* about me section */
+/* .index-about {
   width: 100%;
   padding: 25px 15px 0;
   
@@ -464,10 +464,10 @@ about me section
 
 .index-about-text a:hover {
     background-color: #74558e;
-}
+} */
 
 /* Category section */
-.index-category {
+/* .index-category {
   width: 100%;
   padding: 15px;
   flex-wrap: wrap;
@@ -506,9 +506,9 @@ about me section
 } 
  .index-category-box:nth-child(5) {
   background-image: url(./images/code-heart-fire.jpg);
-} 
+}  */
 /*this is the settings that give the dark effect when the mouse hovers over the images in category*/
-.dark-overlay {
+/* .dark-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -527,7 +527,7 @@ about me section
   text-align: center;
   text-shadow: -2px 2px 4px #201f1f;
   z-index: 100;
-}
+} */
 /* media responsive design make is viewable from different screen sizes*/
 
 @media only screen and (max-width: 600px) {

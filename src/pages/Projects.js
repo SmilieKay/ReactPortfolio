@@ -2,6 +2,7 @@ import React from "react";
 
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
+import styles from "../styles/projects.module.css";
 
 const TITLE = "My Projects |" + Config.SITE_TITLE;
 const DESC = "Cheryl Miller's Projects.";
@@ -16,10 +17,10 @@ class Projects extends React.Component {
                 <meta name="description" content= {DESC}/>
               </Helmet>
       <div id="Projects">
-        <section className="index-category">
+        <section className={styles["index-category"]}>
           <p>Projects</p>
-          <a href="#" className="index-category-box">
-            <div className="dark-overlay"></div>
+          <a href="#" className={styles["index-category-box"]}>
+            <div className={styles["dark-overlay"]}></div>
             <h3>
               Project 1<br />
               Learning
@@ -27,23 +28,23 @@ class Projects extends React.Component {
           </a>
           <a
             href="https://infinite-savannah-06208.herokuapp.com/"
-            className="index-category-box"
+            className={styles["index-category-box"]}
           >
-            <div className="dark-overlay"></div>
+            <div className={styles["dark-overlay"]}></div>
             <h3>
               Project 2<br />
               Growing
             </h3>
           </a>
-          <a href="#" className="index-category-box">
-            <div className="dark-overlay"></div>
+          <a href="#" className={styles["index-category-box"]}>
+            <div className={styles["dark-overlay"]}></div>
             <h3>
               Project 3<br />
               Perfecting
             </h3>
           </a>
-          <a href="#" className="index-category-box">
-            <div className="dark-overlay"></div>
+          <a href="#" className={styles["index-category-box"]}>
+            <div className={styles["dark-overlay"]}></div>
             <h3>
               Project 4<br />
               Loving It!
