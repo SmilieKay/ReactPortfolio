@@ -10,17 +10,17 @@ class Header extends React.Component {
                
                <nav className="header-main-nav">
                  <ul>
-                   <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
-                   <li><NavLink to="/about" activeClassName="active">About Me</NavLink></li>
-                   <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
-                   <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+                   <li><NavLink to="/" caseSensitive activeclassname="active">Home</NavLink></li>
+                   <li><NavLink to="/about" activeclassname="active">About Me</NavLink></li>
+                   <li><NavLink to="/projects" activeclassname="active">Projects</NavLink></li>
+                   <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
                  </ul>
                </nav>
              
        
              <div className="header-main-sm">
               <a href="https://www.facebook.com/cheryl.rollings.58" target="_blank"><div className="header-main-sm-fb"></div></a>
-            <NavLink to="/contact"></NavLink><div className="header-main-sm-email"></div>
+            <Link to="/contact"></Link><div className="header-main-sm-email"></div>
 
                <div className="burger-menu-btn"></div>
              </div>
@@ -30,3 +30,5 @@ class Header extends React.Component {
 }
 
 export default Header;
+
+

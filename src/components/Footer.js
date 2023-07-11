@@ -5,13 +5,13 @@ class Footer extends React.Component {
     render(){
         return(<footer className="footer-main">
         <div className="wrapper-main footer-main-flex">
-          <a className="footer-getintouch" ><NavLink to="/contact">Contact Me</NavLink></a>
+          <Link to="/contact" className="footer-getintouch" >Contact Me</Link>
           <div className="footer-sitemap">
             <ul>
-            <li><NavLink to="/">Home</NavLink></li>
-                   <li><NavLink to="/about">About Me</NavLink></li>
-                   <li><NavLink to="/projects">Projects</NavLink></li>
-                   <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><Link to="/">Home</Link></li>
+                   <li><Link to="/about">About Me</Link></li>
+                   <li><Link to="/projects">Projects</Link></li>
+                   <li><Link to="/contact">Contact</Link></li>
           </ul>
           <ul>
               <li><a href="#">Project 1</a></li>
