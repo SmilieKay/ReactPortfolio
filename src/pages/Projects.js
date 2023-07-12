@@ -18,7 +18,7 @@ class Projects extends React.Component {
               </Helmet>
       <div id="Projects">
         <section className={styles["index-category"]}>
-          <p>Projects</p>
+          <p className={styles["index-category-title"]}>Projects</p>
           <a href="#" className={styles["index-category-box"]}>
             <div className={styles["dark-overlay"]}></div>
             <h3>
@@ -47,6 +47,20 @@ class Projects extends React.Component {
             <div className={styles["dark-overlay"]}></div>
             <h3>
               Project 4<br />
+              Loving It!
+            </h3>
+          </a>
+          <a href="#" className={styles["index-category-box"]}>
+            <div className={styles["dark-overlay"]}></div>
+            <h3>
+              Project 5<br />
+              Loving It!
+            </h3>
+          </a>
+          <a href="#" className={styles["index-category-box"]}>
+            <div className={styles["dark-overlay"]}></div>
+            <h3>
+              Project 6<br />
               Loving It!
             </h3>
           </a>
