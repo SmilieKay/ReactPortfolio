@@ -30,13 +30,13 @@
     line-height: 100px;
     color: #000;
     display: block;
-    height: 100%;
-    & .active {
+    height: 100%;}
+    
+    .header-main-nav ul li a.active {
       color: #00ffff;
       font-size: 1.8rem;
     }
-  }
-
+  
 
 
   /*this changes the text color of the list items in the navigation bar when the mouse is hovered over it */

@@ -25,7 +25,7 @@ class Contact extends React.Component{
           <form className={styles["form-container"]} action="https://formsubmit.co/0bd2d5d0faa9f1ba29e29b49abfc932d" method="POST">
         <input type="text" name="name" placeholder="Name" required/>
         <input type="email" name="email" placeholder="Email Address" required/>
-        <input type="hidden" name="_subject" value="New submission!"/>
+        <input type="hidden" name="_subject" value="Someone messaged you from your Portfolio!"/>
         {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/> */}
      <input type="text" name="message" placeholder="Your Message here " required/>
    
