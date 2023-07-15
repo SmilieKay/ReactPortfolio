@@ -23,7 +23,7 @@
     float: left;
     margin-left: 30px;
   }
-  /*this provides the styling for the links in the navigation bar the links currently do not go anywhere but they will be added in the future*/
+  /*this provides the styling for the links in the navigation bar*/
   .header-main-nav ul li a {
     padding: 0 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +64,22 @@
   .header-main-sm-fb:hover {
     background-image: url(../images/facebook-round-color.png);
   }
+
+  /*this provides the black and white GitHub logo that is in the header it also sets the size*/
+.header-main-sm-github {
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../images/gitHubBlack.png); /* Path to your black and white GitHub image */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*this allows the color GitHub logo to show when the mouse is hovered over it*/
+.header-main-sm-github:hover {
+  background-image: url(../images/githubBlue.png); /* Path to your color GitHub image */
+}
+
+
   /*this provides the black and white email logo that is in the header */
   .header-main-sm-email {
     width: 2rem;

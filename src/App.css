@@ -213,31 +213,9 @@ main {
   align-items: center;
   z-index: 100;
 }
-.home-image {
-  width: 100%;
-  height: calc(100vh - 100px);
-  background-image: url(./images/neon-fire-turned.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-}
 
-/*provides the styling for the h1 in the main intro*/
-main .main-intro h1 {
-  color: transparent;
-  background-image: linear-gradient(140deg, var(--word-colors));
-  -webkit-background-clip: text;
-   background-size: 300%; 
-  font-size: 7.3rem;
-  line-height: 1.2;
-  text-shadow: 0px 3px 1px white;
-  background-size: 400%;
-  animation: bg-animation 5s infinite alternate;
-}
+
+
 @keyframes bg-animation {
   0% { background-position: left;}
   100% {background-position: right;}
@@ -248,42 +226,6 @@ main p {
   max-width: 50rem;
 
 }
-/* ToDo us the below code when I am ready for a link button  */
-/*main a { 
-    font-size: 1.8rem;
-    display: block;
-    background-color: rgb(57, 16, 57);
-    padding: 10px 20px;
-    width: fit-content;
-    margin-top: 30px;
-} */
-/* controls the styling for the paragraph of the main quotes vh(view height is used for the sizing to allow for flexibility of screen size */
-main .main-quotes p {
-  color: #fff;
-  border-left: 4px solid rgb(197, 69, 22);
-  padding-left: 4vh;
-  top: -18vh;
-  margin-bottom: 4vh;
-  position: relative;
-  left: 7vh;
-}
-/*controls the style for the main into*/
-main .main-intro {
-  position: relative;
-  right: 27vh;
-  top: 20vh;
-}
-
-/* controls the position for the main quotes and moves them to the left */
-main .main-quotes {
-  position: relative;
-  left: 19vh;
-}
-/* a pseudo class that controls the left margin of the second quote */
-main .main-quotes p:nth-child(2) {
-  margin-left: 289px;
-}
-
 
 /* media responsive design make is viewable from different screen sizes*/
 
@@ -295,17 +237,9 @@ main .main-quotes p:nth-child(2) {
   height: fit-content;
   margin-top: 5rem;
     }
-    main .main-intro {
-      position: unset;
-      padding-bottom: 8vh;
-    }
+    
  
-  main .main-intro h1 {
-   font-size: 5rem;
-    line-height: 1.2;
-    text-align: center;
-    margin-top: 20px;
-   }
+ 
   main p {
     text-align: center;
     padding: 0 10%;
@@ -323,9 +257,7 @@ main .main-quotes p:nth-child(2) {
   
   }
  
-  main .main-quotes {
-  display: none;
-  }
+ 
   /*Start of the category section*/
   .index-category {
   row-gap: 20px;
