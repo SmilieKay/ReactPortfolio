@@ -10,6 +10,7 @@ class Header extends React.Component {
                
              <nav className={styles["header-main-nav"]}>
                  <ul>
+                
                    <li><NavLink to="/" caseSensitive activeclassname="active">Home</NavLink></li>
                    <li><NavLink to="/about" activeclassname="active">About Me</NavLink></li>
                    <li><NavLink to="/projects" activeclassname="active">Portfolio</NavLink></li>

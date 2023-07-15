@@ -17,7 +17,7 @@ class Home extends React.Component{
                 <meta name="description" content= {DESC}/>
               </Helmet>
             <div className={styles["main-intro"]}>
-              <h1>Cheryl<br></br>Miller's<br></br>Portfolio</h1>
+              <h1>Cheryl<br></br>Miller<br/></h1>
               <p>A FIRE for learning and Creating!</p>
              {/* <!-- Todo use below code when i make a logo-->   */}
                 {/* <!-- <a href="#">My Work</a> --> */}
