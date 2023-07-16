@@ -26,7 +26,7 @@ render() {
         <img src={imageSrc} alt="Cheryl Miller"/></div>
         <div className ={styles["index-about-text"]}>
        <h2>A Little Bit About Me</h2>
-       <p>I would like to take a moment to introduce myself and let you know more about me. I have worked in the medical field for over 20 years as a Certified Nurses Assistant. I believe that background in medical gives many skills that make me a better employee. I have always loved problem solving and creative thinking combined with a strong desire to learn. My desire to learn and puzzle/problem solving is what sparked my desire to learn about computer coding and web design. It provides the challenge of puzzle solving and the opportunity to be artistic and create new things. Web Design/Coding fuels my fire for learning and creating. Feel free to contact me to learn more about me.</p>
+       <p>I would like to take a moment to introduce myself and let you know more about me. I have worked in the medical field for over 20 years. I believe that background in medical gives many skills that make me a better employee. I have always loved problem solving and creative thinking combined with a strong desire to learn. My desire to learn and puzzle/problem solving is what sparked my desire to learn about computer coding and web design. It provides the challenge of puzzle solving and the opportunity to be artistic and create new things. Web Design/Coding fuels my fire for learning and creating. Feel free to contact me to learn more about me.</p>
       
        </div></div>
       </section>
