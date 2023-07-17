@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.4d7ec758.css",
+    "main.js": "/ReactPortfolio/static/js/main.74029f8e.js",
+    "static/js/787.128fc6e9.chunk.js": "/ReactPortfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/parks.png": "/ReactPortfolio/static/media/parks.9c2a5576592ae4469cf5.png",
+    "static/media/Quiz.png": "/ReactPortfolio/static/media/Quiz.70723a1563dcebef28d5.png",
+    "static/media/Weather.png": "/ReactPortfolio/static/media/Weather.5a0e206062dee2efce64.png",
+    "static/media/neon-fire-turned.jpg": "/ReactPortfolio/static/media/neon-fire-turned.8c0833ead8056feb44b1.jpg",
+    "static/media/Tailgate.png": "/ReactPortfolio/static/media/Tailgate.276324858db3e281352a.png",
+    "static/media/Password.png": "/ReactPortfolio/static/media/Password.f4b2c16dc0468499afd5.png",
+    "static/media/Schedular.png": "/ReactPortfolio/static/media/Schedular.71e16c83deacf9e7f889.png",
+    "static/media/me-brown-hair.jpg": "/ReactPortfolio/static/media/me-brown-hair.2fc2b45ce938345f35b4.jpg",
+    "static/media/email.png": "/ReactPortfolio/static/media/email.b1cb2a7f03b10258c45c.png",
+    "static/media/gitHubBlack.png": "/ReactPortfolio/static/media/gitHubBlack.c3c12b720ff3e1e815ac.png",
+    "static/media/githubBlue.png": "/ReactPortfolio/static/media/githubBlue.81563bbdce34dc956cf8.png",
+    "static/media/facebook-round-color.png": "/ReactPortfolio/static/media/facebook-round-color.01a470d813915c298403.png",
+    "static/media/email-color2.png": "/ReactPortfolio/static/media/email-color2.9082177d266cee25a57b.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.4d7ec758.css.map": "/ReactPortfolio/static/css/main.4d7ec758.css.map",
+    "main.74029f8e.js.map": "/ReactPortfolio/static/js/main.74029f8e.js.map",
+    "787.128fc6e9.chunk.js.map": "/ReactPortfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d7ec758.css",
+    "static/js/main.74029f8e.js"
+  ]
+}
