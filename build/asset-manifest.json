@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bac662a9.css",
+    "main.js": "/static/js/main.324f4a26.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/parks.png": "/static/media/parks.9c2a5576592ae4469cf5.png",
+    "static/media/Quiz.png": "/static/media/Quiz.70723a1563dcebef28d5.png",
+    "static/media/Weather.png": "/static/media/Weather.5a0e206062dee2efce64.png",
+    "static/media/neon-fire-turned.jpg": "/static/media/neon-fire-turned.8c0833ead8056feb44b1.jpg",
+    "static/media/Tailgate.png": "/static/media/Tailgate.276324858db3e281352a.png",
+    "static/media/Password.png": "/static/media/Password.f4b2c16dc0468499afd5.png",
+    "static/media/Schedular.png": "/static/media/Schedular.71e16c83deacf9e7f889.png",
+    "static/media/me-brown-hair.jpg": "/static/media/me-brown-hair.2fc2b45ce938345f35b4.jpg",
+    "static/media/email.png": "/static/media/email.b1cb2a7f03b10258c45c.png",
+    "static/media/gitHubBlack.png": "/static/media/gitHubBlack.c3c12b720ff3e1e815ac.png",
+    "static/media/githubBlue.png": "/static/media/githubBlue.81563bbdce34dc956cf8.png",
+    "static/media/facebook-round-color.png": "/static/media/facebook-round-color.01a470d813915c298403.png",
+    "static/media/email-color2.png": "/static/media/email-color2.9082177d266cee25a57b.png",
+    "index.html": "/index.html",
+    "main.bac662a9.css.map": "/static/css/main.bac662a9.css.map",
+    "main.324f4a26.js.map": "/static/js/main.324f4a26.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bac662a9.css",
+    "static/js/main.324f4a26.js"
+  ]
+}
